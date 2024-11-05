@@ -28,7 +28,10 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/MFSscan-0414.jpg",
         "height": "adapt",
@@ -48,7 +51,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Prints",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -102,7 +105,11 @@
           }
         }
       },
-      "block_order": ["heading_7Mf37e", "text_LkrcpY", "buttons_VXXfXz"],
+      "block_order": [
+        "heading_7Mf37e",
+        "text_LkrcpY",
+        "buttons_VXXfXz"
+      ],
       "settings": {
         "image": "shopify://shop_images/000028_3.jpg",
         "image_overlay_opacity": 0,
