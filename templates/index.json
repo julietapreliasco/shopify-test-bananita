@@ -28,10 +28,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+      "block_order": ["heading", "button"],
       "settings": {
         "image": "shopify://shop_images/MFSscan-0414.jpg",
         "height": "adapt",
@@ -75,10 +72,117 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
+    },
+    "image_banner_9YK3d9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7Mf37e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to collaborate?",
+            "heading_size": "h1"
+          }
+        },
+        "text_LkrcpY": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel arcu ultricies nulla blandit rhoncus sit amet at magna. Praesent blandit ipsum nec metus euismod, eu euismod odio ullamcorper. ",
+            "text_style": "body"
+          }
+        },
+        "buttons_VXXfXz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Lorem",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Ipsum",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": ["heading_7Mf37e", "text_LkrcpY", "buttons_VXXfXz"],
+      "settings": {
+        "image": "shopify://shop_images/000028_3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_4MxPjq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_jmmpLC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum",
+            "icon": "check_mark",
+            "row_content": "<p>Nulla faucibus, tellus eget posuere varius, libero felis consequat sem, sed mollis elit mi vitae enim. Quisque ac efficitur sapien. Phasellus enim sem, ullamcorper sit amet arcu sed</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PUMXgM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dolor sit amet",
+            "icon": "check_mark",
+            "row_content": "<p>Sed turpis est, eleifend a vestibulum nec, rutrum viverra ipsum. Proin molestie elit ullamcorper velit iaculis sodales in vitae nisl. Nunc aliquet massa et elit finibus fringilla. Cras pharetra non dolor et suscipit. Duis est arcu, volutpat non magna ac, imperdiet pulvinar libero.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qRYHMH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cras pharetra non dolor",
+            "icon": "check_mark",
+            "row_content": "<p>Quisque ac efficitur sapien. Phasellus enim sem, ullamcorper sit amet arcu sed, blandit placerat velit. Sed turpis est, eleifend a vestibulum nec, rutrum viverra ipsum. Proin molestie elit ullamcorper velit iaculis sodales in vitae nisl.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4fGqee": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Morbi vel arcu ultricies",
+            "icon": "check_mark",
+            "row_content": "<p>Maecenas vel tellus sit amet nibh commodo varius et lobortis purus. Cras fermentum luctus quam vel vulputate.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_jmmpLC",
+        "collapsible_row_PUMXgM",
+        "collapsible_row_qRYHMH",
+        "collapsible_row_4fGqee"
+      ],
+      "settings": {
+        "caption": "Dolor sit amet",
+        "heading": "Lorem ipsum",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image-with-text",
-    "featured_collection"
+    "featured_collection",
+    "image_banner_9YK3d9",
+    "collapsible_content_4MxPjq"
   ]
 }
