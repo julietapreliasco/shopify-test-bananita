@@ -28,7 +28,10 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/MFSscan-0414.jpg",
         "height": "adapt",
@@ -61,7 +64,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -102,7 +105,11 @@
           }
         }
       },
-      "block_order": ["heading_7Mf37e", "text_LkrcpY", "buttons_VXXfXz"],
+      "block_order": [
+        "heading_7Mf37e",
+        "text_LkrcpY",
+        "buttons_VXXfXz"
+      ],
       "settings": {
         "image": "shopify://shop_images/000028_3.jpg",
         "image_overlay_opacity": 0,
