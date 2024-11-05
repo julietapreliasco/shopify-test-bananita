@@ -18,9 +18,52 @@
         "columns_desktop": 3,
         "columns_mobile": "1"
       }
+    },
+    "rich_text_FKhGmp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_apyE3c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h1"
+          }
+        },
+        "text_ezAJHV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel arcu ultricies nulla blandit rhoncus sit amet at magna.</p>"
+          }
+        },
+        "button_yPaXX6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lorem ipsum",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_apyE3c",
+        "text_ezAJHV",
+        "button_yPaXX6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_FKhGmp"
   ]
 }
