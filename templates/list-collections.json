@@ -52,6 +52,9 @@
         "text_ezAJHV",
         "button_yPaXX6"
       ],
+      "custom_css": [
+        ".rich-text {border-top: none !important; border-bottom: none !important;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
