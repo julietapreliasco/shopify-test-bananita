@@ -246,6 +246,65 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_gallery_section_ijTKWb": {
+      "type": "custom-gallery-section",
+      "blocks": {
+        "image_GwtAE4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000028_3.jpg",
+            "caption": "Lorem ipsum"
+          }
+        },
+        "image_dwHcbD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1917.jpg",
+            "caption": "Lorem ipsum"
+          }
+        },
+        "image_VQa4Rk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/F2340018.jpg",
+            "caption": "Lorem ipsum"
+          }
+        },
+        "image_kKJEFD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6660.jpg",
+            "caption": "Lorem ipsum"
+          }
+        },
+        "image_rfGhND": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000014_2.jpg",
+            "caption": "Lorem ipsum"
+          }
+        },
+        "image_eEiiz3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "caption": "Lorem ipsum"
+          }
+        }
+      },
+      "block_order": [
+        "image_GwtAE4",
+        "image_dwHcbD",
+        "image_VQa4Rk",
+        "image_kKJEFD",
+        "image_rfGhND",
+        "image_eEiiz3"
+      ],
+      "settings": {
+        "title": "Galería",
+        "text": "<p>Lorem ipsum dolor sit amet</p>"
+      }
     }
   },
   "order": [
@@ -254,6 +313,7 @@
     "image_banner_9YK3d9",
     "collection_list_PM9TKx",
     "collapsible_content_4MxPjq",
-    "1730821844aefe3937"
+    "1730821844aefe3937",
+    "custom_gallery_section_ijTKWb"
   ]
 }

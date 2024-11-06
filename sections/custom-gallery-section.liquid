@@ -1,0 +1,122 @@
+<div class="image-gallery-section">
+  <div class="image-gallery-section__content">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="image-gallery-section__text">
+      {{ section.settings.text }}
+    </div>
+    <div class="image-gallery-section__gallery">
+      {% for block in section.blocks %}
+        <div class="image-gallery-section__item">
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: '300x300', crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+          {% if block.settings.caption != blank %}
+            <p class="image-gallery-section__caption">{{ block.settings.caption }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .image-gallery-section {
+    padding: 40px 20px;
+  }
+  .image-gallery-section__content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .image-gallery-section__text {
+    margin-bottom: 30px;
+  }
+  .image-gallery-section__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .image-gallery-section__item {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: 300px;
+    text-align: center;
+  }
+  .image-gallery-section__item img,
+  .image-gallery-section__item .placeholder-svg {
+    max-width: 100%;
+    height: auto;
+  }
+  .image-gallery-section__caption {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    .image-gallery-section__item {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  @media (max-width: 480px) {
+    .image-gallery-section__item {
+      flex: 0 0 100%;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Galería de Imágenes",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Título",
+      "default": "Nuestra Galería"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Texto",
+      "default": "<p>Explora nuestra colección de imágenes.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Imagen",
+      "limit": 9,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Imagen"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Pie de foto",
+          "default": "Descripción de la imagen"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Galería de Imágenes",
+      "category": "Galería",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
