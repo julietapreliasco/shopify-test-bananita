@@ -164,67 +164,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_4MxPjq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_jmmpLC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Lorem ipsum",
-            "icon": "check_mark",
-            "row_content": "<p>Nulla faucibus, tellus eget posuere varius, libero felis consequat sem, sed mollis elit mi vitae enim. Quisque ac efficitur sapien. Phasellus enim sem, ullamcorper sit amet arcu sed</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_PUMXgM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Dolor sit amet",
-            "icon": "check_mark",
-            "row_content": "<p>Sed turpis est, eleifend a vestibulum nec, rutrum viverra ipsum. Proin molestie elit ullamcorper velit iaculis sodales in vitae nisl. Nunc aliquet massa et elit finibus fringilla. Cras pharetra non dolor et suscipit. Duis est arcu, volutpat non magna ac, imperdiet pulvinar libero.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_qRYHMH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Cras pharetra non dolor",
-            "icon": "check_mark",
-            "row_content": "<p>Quisque ac efficitur sapien. Phasellus enim sem, ullamcorper sit amet arcu sed, blandit placerat velit. Sed turpis est, eleifend a vestibulum nec, rutrum viverra ipsum. Proin molestie elit ullamcorper velit iaculis sodales in vitae nisl.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4fGqee": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Morbi vel arcu ultricies",
-            "icon": "check_mark",
-            "row_content": "<p>Maecenas vel tellus sit amet nibh commodo varius et lobortis purus. Cras fermentum luctus quam vel vulputate.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_jmmpLC",
-        "collapsible_row_PUMXgM",
-        "collapsible_row_qRYHMH",
-        "collapsible_row_4fGqee"
-      ],
-      "settings": {
-        "caption": "Dolor sit amet",
-        "heading": "Lorem ipsum",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1730821844aefe3937": {
       "type": "apps",
       "blocks": {
@@ -233,8 +172,9 @@
           "settings": {
             "title": "Bananitabb on Instagram",
             "title_color": "",
-            "alignment": "center",
+            "alignment": "left",
             "margin_bottom": 80,
+            "margin_sides": 52,
             "background_color": "",
             "html_area": ""
           }
@@ -243,6 +183,7 @@
       "block_order": [
         "instafeed_app_block_GraaHx"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -312,7 +253,6 @@
     "featured_collection",
     "image_banner_9YK3d9",
     "collection_list_PM9TKx",
-    "collapsible_content_4MxPjq",
     "1730821844aefe3937",
     "custom_gallery_section_ijTKWb"
   ]
